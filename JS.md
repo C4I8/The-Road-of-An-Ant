@@ -5,11 +5,17 @@ JS 数组可以设置
 清空数组。
 
 
-通过 
+通过（唯一方法） 
 
     Object.prototype.toString.call();
   
 查看一个值得内部标签属性[[class]]
+
+方法
+
+    .toString()
+    
+不能访问内部[[class]],因为基本类型构造器中的 toString 被重写了。
 
 例如
 
