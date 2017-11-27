@@ -13,7 +13,7 @@ JS 数组可以设置
 
 方法
 
-    .toString()
+        <code>.toString()</code>
     
 不能访问内部[[class]],因为基本类型构造器中的 toString 被重写了。
 
