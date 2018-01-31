@@ -1,1 +1,3 @@
-node
+io.sockets.emit === io.emit   //向所有连接的客户端发送消息
+socket.emit                   //向当前连接的客户端发送消息
+socket.broadcast.emit         //向除当前连接的客户端外所有其他的客户单发送消息
