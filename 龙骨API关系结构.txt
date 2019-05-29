@@ -1,0 +1,13 @@
+dragonBones.egretFactory 龙骨工厂,常见作用:1,解析`添加`获取`移除龙骨数据`贴图数据 2,创建骨架
+	dragonBones.dragonBonesData 龙骨数据
+	dragonBones.TextureAtlasData 贴图集数据
+	dragonBones.EgretTextureAtlasData Egret贴图集数据
+		dragonBones.ArmatureData 骨架数据
+		dragonBones.Armature 骨架管理器,获取骨骼`插槽`动画
+		dragonBones.AnimationData 动画数据
+		dragonBones.Animation 动画控制器
+			dragonBones.BoneData 骨骼数据
+			dragonBones.Bone 骨骼管理器,获取插槽`子骨骼
+				dragonBones.SlotData 插槽数据
+				dragonBones.Slot 插槽管理器,获取显示对象,碰撞检测
+常见需求:1,播放`停止动画 2,换皮 3,碰撞检测 4,事件监听
